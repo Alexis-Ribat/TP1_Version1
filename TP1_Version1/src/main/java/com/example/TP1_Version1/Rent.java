@@ -90,7 +90,7 @@ public class Rent {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         return sb
-                .append("(beginRent: ")
+                .append(", beginRent: ")
                 .append(beginRent)
                 .append(", endRent: ")
                 .append(endRent)
